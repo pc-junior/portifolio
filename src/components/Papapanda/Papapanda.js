@@ -2,7 +2,6 @@ import "./Papapanda.css"
 import React, { useState} from "react";
 import { papapandaData } from '../../data/papapandaData';
 import sombra from "../../assets/svg/papapanda/sombra.svg"
-import {r} from "./menusearch"
 const PpImg = () => {
     
     
@@ -23,7 +22,7 @@ const PpImg = () => {
                     
                     <img 
                     key={papapandaData.id}
-                    src={papapandaData[r].img}
+                    src={papapandaData[0].img}
                     alt=""
                     />
                 </div>

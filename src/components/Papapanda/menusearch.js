@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import "./menusearch.css"
 import clogo from "./img/c-logo.svg"
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { papapandaData } from "../../data/papapandaData";
 
 
 
@@ -19,15 +18,7 @@ function MenuSearch() {
     
     
     
-    const wrapperRef = useRef(null);
-
-    const [r, setR] = useState(0);
-    const click = () => {
-        
-        const i = Math.floor(Math.random()*papapandaData.length);
-        setR(i);
-     };
-    
+    const wrapperRef = useRef(null);    
 
     return (
         <div className="container">
