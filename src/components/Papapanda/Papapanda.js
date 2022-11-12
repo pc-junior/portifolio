@@ -7,12 +7,12 @@ const PpImg = () => {
     
     
     
-    const [r, setR] = useState(0);
+   /* const [r, setR] = useState(0);
     const click = () => {
         
         const i = Math.floor(Math.random()*papapandaData.length);
         setR(i);
-     };
+     };*/
     
     return (
         
@@ -38,7 +38,7 @@ const PpImg = () => {
                 
             </div>
             <br></br>
-            <h3 onClick={click}> {papapandaData[r].text}</h3>
+            <h3 /*onClick={click}*/> {papapandaData[r].text}</h3>
         </div>
         </div>
     );

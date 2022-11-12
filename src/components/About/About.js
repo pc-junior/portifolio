@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 
 import './About.css';
 import { ColorContext } from '../../contexts/ColorContext';
-import { aboutData } from '../../data/aboutData'
+/*import { aboutData } from '../../data/aboutData'*/
 import  pcJunior  from '../../assets/svg/about/pcJunior.svg';
 
 
