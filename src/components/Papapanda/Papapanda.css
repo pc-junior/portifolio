@@ -1,0 +1,147 @@
+:root {
+    --bg-color: #0c0c0c;
+    --primary-color: #0d0d0d;
+    --secondary-color: #fff;
+    --text-color: #fff;
+    --text-color-2: #fff;
+    --overlay-color: rgb(12 12 12 / 63%);
+}
+
+[data-color="light"] {
+    --bg-color: #ffffff;
+    --primary-color: #ffffff;
+    --secondary-color: #000;
+    --text-color: #000;
+    --text-color-2: #000;
+    --overlay-color: rgb(255 255 255 / 70%);
+}
+
+.corpo .outros{ 
+    fill: var(--darkColor); }
+.corpo .barriga{
+    stroke: #000;}
+.corpo .barriga .cls-4{
+    stroke-miterlimit: 10;}
+.corpo{
+    stroke-width:1.2px;}
+.barriga .cls-4{
+    fill: #edf3f8;}
+.barriga{
+    stroke-width: 0.55px;}
+.cls-4{
+    stroke: #333;
+    stroke-linecap: round;
+    stroke-width: 0.5px;}
+
+.sombraSVG {
+    isolation:isolate;
+    fill:var(--darkShadow);
+    }
+
+.container{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.container .wrapper{
+    margin-top: auto;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  
+}
+.container .wrapper .papa-wrapper{   
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 275px;
+}
+.container .wrapper .papa-wrapper:hover{
+    animation: foge 15s ease-in-out infinite;
+    }
+    
+    @keyframes foge{
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(0.40);
+        }
+        100%{
+            transform: scale(1);
+    
+        }
+    }
+.container .wrapper .papa-wrapper:hover .papapanda{
+    animation: none;
+}
+.container .wrapper .papa-wrapper:hover .papapanda, .sombra{
+    animation: none;
+}
+
+.container .wrapper .papa-wrapper .papapanda {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vh;
+    height: 25vh;
+    animation: floating 21s ease-in-out infinite;
+}
+@keyframes floating {
+    0% {
+    transform: translate3d(0, 0, 0);
+    }
+    40% {
+    transform: translate3d(0, -40%, 0);
+    }
+    47% {
+    transform: translate3d(0, -40%, 0);
+    }
+    93% {
+        transform: translate3d(0, 0, 0);
+        }
+    100% {
+    transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.container .wrapper .papa-wrapper .sombra {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vh;
+    height: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    animation: floatingShadow 21s ease-in-out infinite;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+@keyframes floatingShadow {
+    0% {
+    transform: scale(.93);
+    }
+    40% {
+    transform: scale(0.6);
+    }
+    47% {
+    transform: scale(0.6);
+    }
+    93% {
+        transform: scale(0.93);
+        }
+    100% {
+    transform: scale(0.93);
+    }
+}
+
+.container .wrapper .form-wrapper{
+    width: max-content;
+    height: max-content;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
