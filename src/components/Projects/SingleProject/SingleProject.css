@@ -112,5 +112,19 @@
 @media screen and (max-width: 600px) {
     .singleProject{
         width: 300px;
+        height: 300px;
+    }
+    .projectContent > img {
+        width: 80%;
+        height: 40%;
+        transition: opacity 0.7s 0.3s;
+    }
+    .projectContent > h2 {
+        font-family: var(--primaryFont);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 110%;
+        text-align: center;
     }
 }
