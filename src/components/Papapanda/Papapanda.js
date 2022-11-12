@@ -1,5 +1,5 @@
 import "./Papapanda.css"
-import React, { useState} from "react";
+import React/*, { useState}*/ from "react";
 import { papapandaData } from '../../data/papapandaData';
 import sombra from "../../assets/svg/papapanda/sombra.svg"
 const PpImg = () => {
@@ -37,7 +37,7 @@ const PpImg = () => {
                 
             </div>
             <br></br>
-            <h3 /*onClick={click}*/> {papapandaData[r].text}</h3>
+            <h3 /*onClick={click}*/> {papapandaData[0].text}</h3>
         </div>
         </div>
     );

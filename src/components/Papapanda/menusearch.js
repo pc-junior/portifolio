@@ -86,7 +86,7 @@ function MenuSearch() {
                             </nav>
                             <input type="text" id="batata" className="batata" name='q' placeholder="Batata frita?" />
                             <button id="ooo" type="button" className='button' >
-                                <img className="c-logo" src={clogo} alt="Vai na sorte!" onClick={click}/>
+                                <img className="c-logo" src={clogo} alt="Vai na sorte!"/>
                             </button>
                         </div>
                     </form>
