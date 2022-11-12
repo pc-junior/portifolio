@@ -20,7 +20,7 @@ function About() {
             <div className="about-body">
                 <div className="about-description">
                     <h2 style={{color: color.primary}}>quem é o PC?</h2>
-                    <p style={{color:color.tertiary80}}>O computador sempre fez parte da minha vida de forma natural, seja fazendo manuteção, design ou programação, mas sempre foi um hobby.<br/><br/>Após trabalhar em outras áreas, percebi que minha vocação é trabalhar com interface e desenvovilmento frontend, são atividades que me dão prazer em execer. Sou crativo, comunicativo, observador e dinâmico. Por isso busco agora uma vaga profissional para aprimorar minhas habilidades ténicas e dedicar minha evolução com que me der essa oportunidade.</p>
+                    <p style={{color:color.tertiary80}}>O computador sempre fez parte da minha vida de forma natural, seja fazendo manutenção, design ou programação, mas sempre foi um hobby.<br/><br/>Após trabalhar em outras áreas, percebi que minha vocação é trabalhar com interface e desenvolvimento front-end, são atividades que me dão prazer em exercer. Sou criativo, comunicativo, observador e dinâmico. Por isso busco agora uma vaga profissional para aprimorar minhas habilidades técnicas e dedicar minha evolução com que me der essa oportunidade.</p>
                 </div>
                 <div className="about-img">
                     <img 
