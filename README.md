@@ -3,7 +3,7 @@
 <p align="center">
 
 
-## Projeto de desenvolvimento de portifolio com curriculo.
+## Projeto de desenvolvimento de website de portfólio com currículo.
 
 <br />
 
